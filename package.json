@@ -1,0 +1,24 @@
+{
+  "name": "sdetpro-k17-nodejs",
+  "version": "1.0.0",
+  "description": "automation playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nganguyen99/playwright_spetpro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nganguyen99/playwright_spetpro/issues"
+  },
+  "homepage": "https://github.com/nganguyen99/playwright_spetpro#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
