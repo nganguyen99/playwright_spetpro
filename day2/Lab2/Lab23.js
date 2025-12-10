@@ -14,7 +14,11 @@ function suggestion() {
 
     console.log("input your weight (unit: kg): ");
     let weight = readline.question();
-
+if(isNaN(height)){
+    console.log("your height that you input is not number, please input number")
+}else if (isNaN(weight)){
+    console.log("your weight that you input is not number, please input number")
+}else {
     let BMI = weight / (height * height);
     let fixBMI = BMI.toFixed(1);
     console.log(`your BMI is: ${fixBMI}`);
@@ -31,5 +35,5 @@ function suggestion() {
         console.log("you are obese!");
         return 4;
     }
-}
+}}
 
